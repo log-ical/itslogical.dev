@@ -1,0 +1,9 @@
+
+.main-content{
+	word-wrap: break-word;
+	text-shadow: 20px 14px #8f8f8f;
+	font-size: 16px;
+	line-height: 26px;
+	white-space: nowrap;
+	overflow-x:hidden;
+}

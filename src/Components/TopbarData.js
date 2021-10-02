@@ -1,0 +1,29 @@
+import React from 'react'
+
+export const TopbarData = [
+	{
+		title: "Home",
+		link: "/",
+		key: "1"
+	},
+	{
+		title: "How To Setup CSS Lan",
+		link: "/lan/",
+		key: "1"
+	},
+	{
+		title: "FastDL",
+		link: "/server/maps/.index.php",
+		key: "1"
+	},
+	{
+		title: "Github",
+		link: "https://github.com/log-ical",
+		key: "2"
+	},
+	{
+		title: "Gamebanana",
+		link: "https://gamebanana.com/members/1731795",
+		key: "2"
+	}
+]
