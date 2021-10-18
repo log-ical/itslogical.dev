@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './Components/Topbar';
+import Resources from './Components/Resources';
 import Home from './Components/Home'
 import HTML404 from './Components/404';
 import LanGuide from './Components/CSSLanGuide';
@@ -14,6 +15,7 @@ function App(){
       		<Router>
       		  	<Switch>
 					<Route exact path="/" component={Home}/>
+					<Route path="/resources" component={Resources}/>
 					<Route path="/lan" component={LanGuide}/>
 					<Route exact path="/server/maps/.index.php"/>
 					<Route component={HTML404}></Route>

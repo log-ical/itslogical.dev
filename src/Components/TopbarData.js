@@ -7,6 +7,11 @@ export const TopbarData = [
 		key: "1"
 	},
 	{
+		title: "Resources",
+		link: "/resources",
+		key: "1"
+	},
+	{
 		title: "How To Setup CSS Lan",
 		link: "/lan/",
 		key: "1"
