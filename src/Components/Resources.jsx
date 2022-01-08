@@ -7,7 +7,7 @@ function Resources() {
         <>
         <div className="main_content">
             
-            <div class="content">
+            <div className="content">
 
             <h3>Tools</h3>
                 <h4>Mapping</h4>
@@ -18,7 +18,7 @@ function Resources() {
             <h3>Guides</h3>
 
                 <h4>Mapping</h4>
-                    <div id="map2" class="map2">
+                    <div id="map2" className="map2">
                         {Guides.map(GuideFunc)}      
                     </div>
             </div>

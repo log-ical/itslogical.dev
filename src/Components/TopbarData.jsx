@@ -11,9 +11,14 @@ export const TopbarData = [
 		link: "/resources",
 		key: "1"
 	},
+	//{
+	//	title: "How To Setup CSS Lan",
+	//	link: "/lan/",
+	//	key: "1"
+	//},
 	{
-		title: "How To Setup CSS Lan",
-		link: "/lan/",
+		title: "CS:S Server Builder",
+		link: "/builder/",
 		key: "1"
 	},
 	{

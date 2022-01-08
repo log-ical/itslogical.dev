@@ -5,17 +5,13 @@ function Home() {
     return (
         <>
         <div className="main_content">
-            <div class="content">
-                <div class="profile">
+            <div className="content">
+                <div className="profile">
                     <samp>
                         Hello I'm <h1>Ryan W.</h1>
                         <br></br>
-                        <div class="description">
+                        <div className="description">
                             Self-taught New York developer in high school that has a fascination with programming, languages, and math.<br></br>
-                            Majority of my programming is in SourcePawn, developing for gaming communities, one of which I help maintain the servers for.<br></br>
-                            <br></br>
-                            I wrote my first line of when I was around 12 years old, and have been learning seriously since I was 14.<br></br>
-                            <br></br>
                             <h4>Tools and languages I know:</h4>
 		                    <a href="https://www.typescriptlang.org/">TypeScript</a><br></br>
 		                    <a href="https://www.javascript.com/">JavaScript</a><br></br>

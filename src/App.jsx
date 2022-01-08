@@ -4,6 +4,7 @@ import Resources from './Components/Resources';
 import Home from './Components/Home'
 import HTML404 from './Components/404';
 import LanGuide from './Components/CSSLanGuide';
+import ServerBuilder from './Components/ServerBuilder';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
 					<Route exact path="/" component={Home}/>
 					<Route path="/resources" component={Resources}/>
 					<Route path="/lan" component={LanGuide}/>
+					<Route path="/builder" component={ServerBuilder}/>
 					<Route exact path="/server/maps/.index.php"/>
 					<Route component={HTML404}></Route>
       		  	</Switch>

@@ -22,7 +22,22 @@ function Topbar() {
 			</pre>
 			<div className="TopbarContainer">
 				<div className="TopbarList">
-					{TopbarData.map(Topbarfunc)}
+					{TopbarData.map((val) => {
+						return(
+							<>
+							<a	
+								key={val.title} 
+								className="tab" 
+								id={window.location.pathname === val.link ? 'active' : ''}
+								href={val.link}
+								target={externalLink(val.key)}
+							>
+								{val.title}
+							</a>
+							&ensp;
+							</>
+						)
+					})}
 				</div>
 			</div>
 		</div>
@@ -31,39 +46,7 @@ function Topbar() {
 	)	
 }
 
-function Topbarfunc(val, key)
-{
-	return(
-		<>
-			<a	
-				key={val.key} 
-				className="tab" 
-				id={window.location.pathname === val.link ? 'active' : ''}
-				href={val.link}
-				target={externalLink(val.key)}
-			>
-				{social(val)}
-				{val.title}
-			</a>
-			
-			&ensp;
-		</>
-	)
-}
 
-function social(val)
-{
-	switch(val.key)
-	{
-		case 1:
-		break;
-		case 2:
-			return(<> 
-				
-			</>)
-	}
-	return;
-}
 
 function externalLink(key)
 {
