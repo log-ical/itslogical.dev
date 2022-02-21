@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, TextInput } from "react-native";
+import { SafeAreaView, StyleSheet, TextInput } from "react-native-web";
 
 export const InputBox = ({label, handleChange, text}) => {
   return (

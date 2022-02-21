@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Button, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Button, View, SafeAreaView } from 'react-native-web';
 
 
 
