@@ -9,27 +9,29 @@ body {
 
 .tab a {
     text-decoration: none;
-    border-bottom: 1px dashed #EEE;
+    border-bottom: 1px solid #EEE;
     color: inherit;
 }
 
 
 .header{
+
     font-size: 1rem;
     font-family: monospace;
     margin: auto;
     background: rgb(14, 14, 14);
     color: lightgray;
     width: 100%;
-    
 }
 
 .logotext {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10vw;
     color: #EEE;
     display: block;
     font-weight: bold;
-    white-space: pre;
-    padding: 25px;
+    white-space: nowrap;
     width: 100%;
     text-decoration: none;
     border-bottom: 0;
@@ -37,18 +39,19 @@ body {
     font-size: 10px;
 }
 
-
 .TopbarList {
-    border-bottom: 1px dashed #EEE;
+    border-bottom: 1px solid #EEE;
+    width: 100%;
+    padding-left: 10vw;
 }
 
 .tab {
+
     display: inline-block;
     padding: 10px 25px;
     margin-bottom: -1px;
-    border: 1px dashed #EEE;
+    border: 1px solid #EEE;
         border-bottom-color: rgb(238, 238, 238);
-        border-bottom-style: dashed;
         border-bottom-width: 1px;
     border-bottom: 0px;
     color: inherit;
