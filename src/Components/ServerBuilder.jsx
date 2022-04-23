@@ -69,6 +69,7 @@ function ServerBuilder() {
         <div className="main_content">
             <div className="content">
             CS:S Server Builder v0.1.0<br/>
+            <h2>Disclaimer: Some plugins may be out of date.</h2>
                 <h3>Server</h3>
                     <h4>Operating System</h4>
                         <ToggleSwitch 
@@ -660,7 +661,7 @@ function ServerBuilder() {
 
 
         <Footer>
-            <span>Building is done client-side — expect moderate CPU and RAM usage</span>
+            <span>"Building" may take a while, please be patient.</span>
         </Footer>
         </>
     )
