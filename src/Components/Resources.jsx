@@ -7,20 +7,20 @@ function Resources() {
         <>
         <div className="main_content">
             
-            <div className="content">
+            <div className="content_resources">
 
-            <h3>Tools</h3>
-                <h4>Mapping</h4>
-                    <div className="map">
-                        {Mapping.map(MappingFunc)}
-                    </div>
-                    
-            <h3>Guides</h3>
+                <h3>Tools</h3>
+                    <h4>Mapping</h4>
+                        <div className="map">
+                            {Mapping.map(MappingFunc)}
+                        </div>
 
-                <h4>Mapping</h4>
-                    <div id="map2" className="map2">
-                        {Guides.map(GuideFunc)}      
-                    </div>
+                <h3>Guides</h3>
+
+                    <h4>Mapping</h4>
+                        <div id="map2" className="map2">
+                            {Guides.map(GuideFunc)}      
+                        </div>
             </div>
         </div>
         </>

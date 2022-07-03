@@ -34,3 +34,19 @@ h4{
 .inputBox{
     margin: 10px;
 }
+
+.content_builder h4{
+    margin-left: 2vw;
+}
+
+.content_builder a{
+    margin-left: 4vw;
+    color: inherit;
+}
+
+.content_builder p{
+    margin-left: 6vw;
+}
+
+
+

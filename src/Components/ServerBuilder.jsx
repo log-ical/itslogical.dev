@@ -67,7 +67,7 @@ function ServerBuilder() {
     return (
         <>
         <div className="main_content">
-            <div className="content">
+            <div className="content_builder">
             CS:S Server Builder v0.1.0<br/>
             <h2>Disclaimer: Some plugins may be out of date.</h2>
                 <h3>Server</h3>

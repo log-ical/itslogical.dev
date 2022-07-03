@@ -1,0 +1,134 @@
+.timeline_container {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px;
+    animation-name: SlideInAboutMe;
+    animation-duration: .5s;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+
+
+.timeline_container:hover {
+    animation-fill-mode: forwards;
+    animation-name: HighlightAboutMe;
+    animation-duration: .3s;
+}
+
+@keyframes SlideInAboutMe {
+    from {
+        transform: translateX(-1%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+}
+
+.timeline_title{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.timeline_subtitle{
+    margin-bottom: 10px;
+    overflow-wrap: break-word; 
+}
+
+.container_aboutme a {
+    color: inherit;
+}
+
+.container_aboutme h1 {
+    margin-bottom: 10px;
+}
+
+.timeline_event_title{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+
+.timeline_event[animate=""] {
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    animation-name: FadeIn;
+    animation-duration: .3s;
+}
+
+.timeline_event[animate="FadeOut"] {
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    border: 1px solid white;
+    min-width: 50vw;
+    padding: 10px;
+    animation-name: FadeOut;
+    animation-duration: .3s;
+}
+
+.timeline_event_content img:hover{
+    animation-name: ZoomIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.timeline_event_content img{
+    animation-name: ZoomOut;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ZoomIn {
+    from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(2);
+      }
+}
+
+@keyframes ZoomOut {
+    from {
+        transform: scale(2);
+      }
+      to {
+        transform: scale(1);
+      }
+}
+
+@keyframes FadeIn {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes FadeOut {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+
+@keyframes HighlightAboutMe {
+    to {
+        background-color: rgba(255, 255, 255, 0.027);
+        transform: translateX(-1%);
+    }
+}
+

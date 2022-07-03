@@ -1,0 +1,56 @@
+.project_container {
+    border: 1px solid white;
+    
+    padding: 10px;
+    margin: 20px;
+    animation-name: SlideIn;
+    animation-duration: .5s;
+    cursor: pointer;  
+}
+
+.project_container:hover {
+    animation-fill-mode: forwards;
+    animation-name: Highlight;
+    animation-duration: .3s;
+}
+
+@keyframes Highlight {
+    to {
+        background-color: rgb(26, 26, 26);
+        transform: translateY(-5%);
+    }
+}
+
+
+.container_projectslinks a {
+    text-decoration: none;   
+    color: white;
+}
+
+@keyframes SlideIn {
+    from {
+        transform: translateY(-5%);
+      }
+      to {
+        transform: translateY(0%);
+      }
+}
+
+.project_title{
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: white;
+}
+.project_subtitle{
+    margin-bottom: 5px;
+    overflow-wrap: break-word; 
+    color: white;
+}
+
+.project_subtitle a {
+    text-decoration: underline;   
+}
+
+.project_subtitle a:hover {
+    text-decoration: none;
+}
