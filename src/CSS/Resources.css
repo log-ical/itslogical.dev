@@ -1,0 +1,49 @@
+
+.main_content{
+    line-height: 20px;
+    font-size: 15px;
+    padding-bottom: 6vh;
+}
+
+.LanContent{
+    word-wrap: break-word;
+    font-size: 15px;
+    line-height: 20px;
+}
+.LanContent p{
+    margin-left: 2vw;
+}
+
+.LanContent a{
+    padding: 20px;
+    margin-left: 2vw;
+    color: inherit;
+}
+
+.LanContent code {
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.LanContent .LanData{
+    padding: 5px;
+    margin-left: 4vw;
+}
+
+.content_resources h4{
+    margin-left: 2vw;
+}
+
+.content_resources a{
+    margin-left: 4vw;
+    color: inherit;
+}
+
+.content_resources p{
+    margin-left: 6vw;
+}
+
+
+
+

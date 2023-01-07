@@ -1,0 +1,73 @@
+body {
+    font-size: 1rem;
+    font-family: monospace;
+    margin: auto;
+    background: rgb(19, 19, 19);
+    color: lightgray;
+    width: 100%;
+}
+
+.tab a {
+    text-decoration: none;
+    border-bottom: 1px dashed #EEE;
+    color: inherit;
+}
+
+.content    {
+    font-size: 1rem;
+    font-family: monospace;
+    margin: auto;
+    background: rgb(19, 19, 19);
+    color: lightgray;
+}
+
+
+.content a {
+    color: lightgray;
+}
+
+.header{
+    font-size: 1rem;
+    font-family: monospace;
+    margin: auto;
+    background: rgb(14, 14, 14);
+    color: lightgray;
+    width: 100%;
+    
+}
+
+.logotext {
+    color: #EEE;
+    display: block;
+    font-weight: bold;
+    white-space: pre;
+    padding: 25px;
+    text-decoration: none;
+    border-bottom: 0;
+    line-height: 9px;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+
+.TopbarList {
+    border-bottom: 1px dashed #EEE;
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: -1px;
+    border: 1px dashed #EEE;
+        border-bottom-color: rgb(238, 238, 238);
+        border-bottom-style: dashed;
+        border-bottom-width: 1px;
+    border-bottom: 0px;
+    color: inherit;
+    font-size: 1rem;
+}
+
+#active {
+    border-bottom: 1px solid rgb(19, 19, 19);
+    background: rgb(19, 19, 19);
+}

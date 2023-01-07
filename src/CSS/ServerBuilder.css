@@ -1,0 +1,52 @@
+h4{
+    padding-top: 10px;
+}
+
+.adminGroup {
+    border:1px dashed white;
+    margin: 5px;
+    padding: 10px
+}
+.adminGroup .inputBox {
+    padding-left: 10px;
+}
+
+.adminInfo{
+    border:1px dotted rgba(255, 255, 255, 0.288);
+    margin: 5px;
+    padding: 10px
+}
+
+.adminInfoWarning{
+    border:1px dotted rgb(255, 0, 0);
+    color: red;
+    margin: 5px;
+    padding: 10px
+}
+
+.adminInfoWarning2{
+    border:1px dotted orange;
+    color: orange;
+    margin: 5px;
+    padding: 10px
+}
+
+.inputBox{
+    margin: 10px;
+}
+
+.content_builder h4{
+    margin-left: 2vw;
+}
+
+.content_builder a{
+    margin-left: 4vw;
+    color: inherit;
+}
+
+.content_builder p{
+    margin-left: 6vw;
+}
+
+
+
